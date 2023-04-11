@@ -1,0 +1,10 @@
+C:/Users/USER/Desktop/Mentorias/Clase1 Problemas/cmake-build-debug/CMakeFiles/BMI.dir
+C:/Users/USER/Desktop/Mentorias/Clase1 Problemas/cmake-build-debug/CMakeFiles/Clave.dir
+C:/Users/USER/Desktop/Mentorias/Clase1 Problemas/cmake-build-debug/CMakeFiles/Cuadrados.dir
+C:/Users/USER/Desktop/Mentorias/Clase1 Problemas/cmake-build-debug/CMakeFiles/Diamond.dir
+C:/Users/USER/Desktop/Mentorias/Clase1 Problemas/cmake-build-debug/CMakeFiles/Escalera.dir
+C:/Users/USER/Desktop/Mentorias/Clase1 Problemas/cmake-build-debug/CMakeFiles/TiempoDigital.dir
+C:/Users/USER/Desktop/Mentorias/Clase1 Problemas/cmake-build-debug/CMakeFiles/ejemplos.dir
+C:/Users/USER/Desktop/Mentorias/Clase1 Problemas/cmake-build-debug/CMakeFiles/maxdigrepetido.dir
+C:/Users/USER/Desktop/Mentorias/Clase1 Problemas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/USER/Desktop/Mentorias/Clase1 Problemas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
