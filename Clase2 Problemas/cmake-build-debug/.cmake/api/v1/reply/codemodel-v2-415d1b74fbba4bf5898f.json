@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "problemas",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejemplos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejemplos-Debug-47d6833f8c464f40ca94.json",
+					"name" : "Ejemplos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Problema1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problema1-Debug-a7435da07f7befeec72d.json",
+					"name" : "Problema1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Problema2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problema2-Debug-9a24bbdeac5f5a407409.json",
+					"name" : "Problema2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Problema3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problema3-Debug-8d057cbdd4514d8d8152.json",
+					"name" : "Problema3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Problema4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problema4-Debug-4e5b3e34f88fd228f771.json",
+					"name" : "Problema4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Problema5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problema5-Debug-cd366821bee30c0fba29.json",
+					"name" : "Problema5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Problema6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problema6-Debug-fce7647c372a14fc169b.json",
+					"name" : "Problema6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Problema7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problema7-Debug-d1861d0cc691b4d4278c.json",
+					"name" : "Problema7",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Mentoria_Programacion_II/Clase2 Problemas/cmake-build-debug",
+		"source" : "D:/Mentoria_Programacion_II/Clase2 Problemas"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
