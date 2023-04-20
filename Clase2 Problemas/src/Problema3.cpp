@@ -20,5 +20,8 @@ int main() {
     int n;
     cin >> n;
     cout << fixed << setprecision(5) << exponential(n) << endl;
+    // Variable_asignada =(condicion_bool)? Si_verdadero:Si_falso;
+
+
     return 0;
 }

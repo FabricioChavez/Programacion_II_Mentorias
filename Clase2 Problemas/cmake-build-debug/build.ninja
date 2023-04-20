@@ -304,6 +304,39 @@ build Problema7.exe: CXX_EXECUTABLE_LINKER__Problema7_Debug CMakeFiles/Problema7
   TARGET_IMPLIB = libProblema7.dll.a
   TARGET_PDB = Problema7.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ejemplo2
+
+
+#############################################
+# Order-only phony target for ejemplo2
+
+build cmake_object_order_depends_target_ejemplo2: phony || CMakeFiles/ejemplo2.dir
+
+build CMakeFiles/ejemplo2.dir/src/ejemplo2.cpp.obj: CXX_COMPILER__ejemplo2_Debug D$:/Mentoria_Programacion_II/Clase2$ Problemas/src/ejemplo2.cpp || cmake_object_order_depends_target_ejemplo2
+  DEP_FILE = CMakeFiles\ejemplo2.dir\src\ejemplo2.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ejemplo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ejemplo2.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejemplo2
+
+
+#############################################
+# Link the executable ejemplo2.exe
+
+build ejemplo2.exe: CXX_EXECUTABLE_LINKER__ejemplo2_Debug CMakeFiles/ejemplo2.dir/src/ejemplo2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ejemplo2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ejemplo2.exe
+  TARGET_IMPLIB = libejemplo2.dll.a
+  TARGET_PDB = ejemplo2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -346,6 +379,8 @@ build Problema6: phony Problema6.exe
 
 build Problema7: phony Problema7.exe
 
+build ejemplo2: phony ejemplo2.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -354,7 +389,7 @@ build Problema7: phony Problema7.exe
 #############################################
 # Folder: D:/Mentoria_Programacion_II/Clase2 Problemas/cmake-build-debug
 
-build all: phony Ejemplos.exe Problema1.exe Problema2.exe Problema3.exe Problema4.exe Problema5.exe Problema6.exe Problema7.exe
+build all: phony Ejemplos.exe Problema1.exe Problema2.exe Problema3.exe Problema4.exe Problema5.exe Problema6.exe Problema7.exe ejemplo2.exe
 
 # =============================================================================
 # Built-in targets

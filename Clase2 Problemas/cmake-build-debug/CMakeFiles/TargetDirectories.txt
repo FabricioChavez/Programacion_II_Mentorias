@@ -6,5 +6,6 @@ D:/Mentoria_Programacion_II/Clase2 Problemas/cmake-build-debug/CMakeFiles/Proble
 D:/Mentoria_Programacion_II/Clase2 Problemas/cmake-build-debug/CMakeFiles/Problema5.dir
 D:/Mentoria_Programacion_II/Clase2 Problemas/cmake-build-debug/CMakeFiles/Problema6.dir
 D:/Mentoria_Programacion_II/Clase2 Problemas/cmake-build-debug/CMakeFiles/Problema7.dir
+D:/Mentoria_Programacion_II/Clase2 Problemas/cmake-build-debug/CMakeFiles/ejemplo2.dir
 D:/Mentoria_Programacion_II/Clase2 Problemas/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Mentoria_Programacion_II/Clase2 Problemas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
