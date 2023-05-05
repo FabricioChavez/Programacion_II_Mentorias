@@ -10,14 +10,12 @@ int main() {
     int n;
     cin>>n;
     srand(time(nullptr));
-    int** M1,**M2, **M3,**M4;
+    int** M1,**M2;
     M1=new int*[n];
     M2=new int*[n];
     for (int i = 0; i < n; ++i) {
         M1[i]=new int[n];
         M2[i]=new int[n];
-
-
     }
     fillM(M1,n);
     printearM(M1, n);
@@ -53,12 +51,14 @@ void Rotahor(int**M1, int **M2, int n)
     for (int i = 0; i < n; ++i) {
         M[i] = new int[n];
     }
-
+  //TRANSPONER                    //Transponer --> invertir horario
+                                    // Invertir --> Transponer antihorario
     for (int i = 0; i < n; i++) {
         for (int j = 0; j <n; j++) {
             M[i][j]=M1[j][i];
         }
     }
+    //Invertir columnas
     int col=0;
     for (int i = 0; i < n; i++) {
         for (int j = n-1; j >=0; j--) {

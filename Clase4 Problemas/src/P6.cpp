@@ -37,7 +37,6 @@ int main() {
 
     int f,c;
     cin>>f>>c;
-    srand(time(nullptr));
     int** M1,**M2;
     M1=new int*[f];
     for (int i = 0; i < f; ++i) {

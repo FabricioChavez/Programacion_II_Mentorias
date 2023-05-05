@@ -271,6 +271,39 @@ build P7.exe: CXX_EXECUTABLE_LINKER__P7_Debug CMakeFiles/P7.dir/src/P7.cpp.obj
   TARGET_IMPLIB = libP7.dll.a
   TARGET_PDB = P7.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ejemplos
+
+
+#############################################
+# Order-only phony target for ejemplos
+
+build cmake_object_order_depends_target_ejemplos: phony || CMakeFiles/ejemplos.dir
+
+build CMakeFiles/ejemplos.dir/src/ejemplos.cpp.obj: CXX_COMPILER__ejemplos_Debug D$:/Mentoria_Programacion_II/Clase4$ Problemas/src/ejemplos.cpp || cmake_object_order_depends_target_ejemplos
+  DEP_FILE = CMakeFiles\ejemplos.dir\src\ejemplos.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ejemplos.dir
+  OBJECT_FILE_DIR = CMakeFiles\ejemplos.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejemplos
+
+
+#############################################
+# Link the executable ejemplos.exe
+
+build ejemplos.exe: CXX_EXECUTABLE_LINKER__ejemplos_Debug CMakeFiles/ejemplos.dir/src/ejemplos.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ejemplos.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ejemplos.exe
+  TARGET_IMPLIB = libejemplos.dll.a
+  TARGET_PDB = ejemplos.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -311,6 +344,8 @@ build P6: phony P6.exe
 
 build P7: phony P7.exe
 
+build ejemplos: phony ejemplos.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -319,7 +354,7 @@ build P7: phony P7.exe
 #############################################
 # Folder: D:/Mentoria_Programacion_II/Clase4 Problemas/cmake-build-debug
 
-build all: phony P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe
+build all: phony P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe ejemplos.exe
 
 # =============================================================================
 # Built-in targets

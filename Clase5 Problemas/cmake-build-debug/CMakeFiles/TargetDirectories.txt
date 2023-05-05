@@ -1,0 +1,9 @@
+D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug/CMakeFiles/P1.dir
+D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug/CMakeFiles/P2.dir
+D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug/CMakeFiles/P3.dir
+D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug/CMakeFiles/P4.dir
+D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug/CMakeFiles/P5.dir
+D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug/CMakeFiles/P6.dir
+D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug/CMakeFiles/P7.dir
+D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

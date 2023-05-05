@@ -56,8 +56,9 @@ void word_extraction(string s , string * cads)
 }
 int main() {
 
-    string s="Esta es   una string  de  prueba para la mentoria >w<";
+    string s="Esta es   una   string  de  prueba para la mentoria >w<";
     int n=word_count(s);
+
     string *cadenas = new string [n];
     word_extraction(s,cadenas);
     for (int i = 0; i < n; ++i) {

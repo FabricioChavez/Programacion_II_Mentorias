@@ -52,6 +52,11 @@ int main() {
     cout<<"la suma cruz es :"<<endl;
     printearM(M2,n);
 
+    for (int i = 0; i < n; ++i) {
+         delete M1[i];
+    }
+    delete []M1;
+
 
 
 }
