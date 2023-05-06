@@ -21,7 +21,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -42,7 +43,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -95,6 +97,13 @@
 					"id" : "P7::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-P7-Debug-98eca1a62a7415b64890.json",
 					"name" : "P7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejemplo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejemplo-Debug-fadb1f74c36b458ae543.json",
+					"name" : "ejemplo",
 					"projectIndex" : 0
 				}
 			]

@@ -64,11 +64,11 @@ int main(){
 
     cout<<endl;
     cout<<"SECOND"<<endl;
-    printearM(M3, f ,c/2 );
+    printearM(M2, f ,c/2 );
 
     cout<<endl;
     cout<<"THIRD"<<endl;
-    printearM(M2 , f ,c/2 );
+    printearM(M3 , f ,c/2 );
 
 
 
