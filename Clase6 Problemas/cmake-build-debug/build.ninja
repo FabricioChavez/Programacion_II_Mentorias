@@ -272,6 +272,105 @@ build P7.exe: CXX_EXECUTABLE_LINKER__P7_Debug CMakeFiles/P7.dir/src/P7.cpp.obj
   TARGET_PDB = P7.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target POO
+
+
+#############################################
+# Order-only phony target for POO
+
+build cmake_object_order_depends_target_POO: phony || CMakeFiles/POO.dir
+
+build CMakeFiles/POO.dir/src/POO.cpp.obj: CXX_COMPILER__POO_Debug D$:/Mentoria_Programacion_II/Clase6$ Problemas/src/POO.cpp || cmake_object_order_depends_target_POO
+  DEP_FILE = CMakeFiles\POO.dir\src\POO.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\POO.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target POO
+
+
+#############################################
+# Link the executable POO.exe
+
+build POO.exe: CXX_EXECUTABLE_LINKER__POO_Debug CMakeFiles/POO.dir/src/POO.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\POO.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = POO.exe
+  TARGET_IMPLIB = libPOO.dll.a
+  TARGET_PDB = POO.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target POO1
+
+
+#############################################
+# Order-only phony target for POO1
+
+build cmake_object_order_depends_target_POO1: phony || CMakeFiles/POO1.dir
+
+build CMakeFiles/POO1.dir/src/POO1.cpp.obj: CXX_COMPILER__POO1_Debug D$:/Mentoria_Programacion_II/Clase6$ Problemas/src/POO1.cpp || cmake_object_order_depends_target_POO1
+  DEP_FILE = CMakeFiles\POO1.dir\src\POO1.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\POO1.dir
+  OBJECT_FILE_DIR = CMakeFiles\POO1.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target POO1
+
+
+#############################################
+# Link the executable POO1.exe
+
+build POO1.exe: CXX_EXECUTABLE_LINKER__POO1_Debug CMakeFiles/POO1.dir/src/POO1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\POO1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = POO1.exe
+  TARGET_IMPLIB = libPOO1.dll.a
+  TARGET_PDB = POO1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target POO2
+
+
+#############################################
+# Order-only phony target for POO2
+
+build cmake_object_order_depends_target_POO2: phony || CMakeFiles/POO2.dir
+
+build CMakeFiles/POO2.dir/src/POO2.cpp.obj: CXX_COMPILER__POO2_Debug D$:/Mentoria_Programacion_II/Clase6$ Problemas/src/POO2.cpp || cmake_object_order_depends_target_POO2
+  DEP_FILE = CMakeFiles\POO2.dir\src\POO2.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\POO2.dir
+  OBJECT_FILE_DIR = CMakeFiles\POO2.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target POO2
+
+
+#############################################
+# Link the executable POO2.exe
+
+build POO2.exe: CXX_EXECUTABLE_LINKER__POO2_Debug CMakeFiles/POO2.dir/src/POO2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\POO2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = POO2.exe
+  TARGET_IMPLIB = libPOO2.dll.a
+  TARGET_PDB = POO2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ejemplo
 
 
@@ -377,6 +476,12 @@ build P6: phony P6.exe
 
 build P7: phony P7.exe
 
+build POO: phony POO.exe
+
+build POO1: phony POO1.exe
+
+build POO2: phony POO2.exe
+
 build ejemplo: phony ejemplo.exe
 
 build ejemplos2: phony ejemplos2.exe
@@ -389,7 +494,7 @@ build ejemplos2: phony ejemplos2.exe
 #############################################
 # Folder: D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug
 
-build all: phony P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe ejemplo.exe ejemplos2.exe
+build all: phony P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe POO.exe POO1.exe POO2.exe ejemplo.exe ejemplos2.exe
 
 # =============================================================================
 # Built-in targets
