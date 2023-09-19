@@ -4,7 +4,7 @@ using namespace std;
 void B( char * secuencia);
 void A( char * secuencia){
 
-    if(secuencia[0]=='a')
+    if(secuencia[0]=='a')//*secuencia
         A(secuencia+1);
     else if(secuencia[0]=='r')
         B(secuencia+1);

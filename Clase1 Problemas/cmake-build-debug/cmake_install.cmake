@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/USER/Desktop/Mentorias/Clase1 Problemas
+# Install script for directory: D:/Mentoria_Programacion_II/Clase1 Problemas
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/USER/Desktop/Mentorias/Clase1 Problemas/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Mentoria_Programacion_II/Clase1 Problemas/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

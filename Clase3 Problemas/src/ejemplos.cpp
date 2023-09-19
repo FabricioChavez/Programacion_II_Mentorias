@@ -15,8 +15,10 @@ using namespace std;
 void print_raro(char cad[] )
 {
     if (cad[0]!='\0')
-    {  print_raro(cad+1);
-        cout<<cad[0]<<endl;
+    {
+        print_raro(cad+1);
+        cout<<cad[0]<<endl;//vuelta
+
     }else cout<<cad[0];
 
 }
@@ -44,9 +46,28 @@ int main()
 //    modifica(&Ptotoro);
 //    cout<<Ptotoro<<endl;
 
+//int *a;
+//int b=5;
+//
+//cout<<"Addres de b "<<&b<<endl;
+//a=&b;
+//cout<<"Addres de b con puntero a"<<a<<endl;
+//cout<<"Addres de puntero a"<<&a<<endl;
+//cout<<"El valor de b apuntado desde a "<<*a<<endl;
+
     char cad[255];
+    cout<<"INGRESAR VALOR :"<<endl;
     gets(cad);
     print_raro(cad);
+
+
+
+
+
+
+
+
+
 
 
 

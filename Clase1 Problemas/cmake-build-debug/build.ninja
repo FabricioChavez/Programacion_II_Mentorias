@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/USER/Desktop/Mentorias/Clase1$ Problemas/cmake-build-debug/
+cmake_ninja_workdir = D$:/Mentoria_Programacion_II/Clase1$ Problemas/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target BMI
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/USER/Desktop/Mentorias/Clase1$ Problemas/cmake-b
 
 build cmake_object_order_depends_target_BMI: phony || CMakeFiles/BMI.dir
 
-build CMakeFiles/BMI.dir/src/BMI.cpp.obj: CXX_COMPILER__BMI_Debug C$:/Users/USER/Desktop/Mentorias/Clase1$ Problemas/src/BMI.cpp || cmake_object_order_depends_target_BMI
+build CMakeFiles/BMI.dir/src/BMI.cpp.obj: CXX_COMPILER__BMI_Debug D$:/Mentoria_Programacion_II/Clase1$ Problemas/src/BMI.cpp || cmake_object_order_depends_target_BMI
   DEP_FILE = CMakeFiles\BMI.dir\src\BMI.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\BMI.dir
@@ -82,7 +82,7 @@ build BMI.exe: CXX_EXECUTABLE_LINKER__BMI_Debug CMakeFiles/BMI.dir/src/BMI.cpp.o
 
 build cmake_object_order_depends_target_Clave: phony || CMakeFiles/Clave.dir
 
-build CMakeFiles/Clave.dir/src/Clave.cpp.obj: CXX_COMPILER__Clave_Debug C$:/Users/USER/Desktop/Mentorias/Clase1$ Problemas/src/Clave.cpp || cmake_object_order_depends_target_Clave
+build CMakeFiles/Clave.dir/src/Clave.cpp.obj: CXX_COMPILER__Clave_Debug D$:/Mentoria_Programacion_II/Clase1$ Problemas/src/Clave.cpp || cmake_object_order_depends_target_Clave
   DEP_FILE = CMakeFiles\Clave.dir\src\Clave.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\Clave.dir
@@ -115,7 +115,7 @@ build Clave.exe: CXX_EXECUTABLE_LINKER__Clave_Debug CMakeFiles/Clave.dir/src/Cla
 
 build cmake_object_order_depends_target_Cuadrados: phony || CMakeFiles/Cuadrados.dir
 
-build CMakeFiles/Cuadrados.dir/src/Cuadrados.cpp.obj: CXX_COMPILER__Cuadrados_Debug C$:/Users/USER/Desktop/Mentorias/Clase1$ Problemas/src/Cuadrados.cpp || cmake_object_order_depends_target_Cuadrados
+build CMakeFiles/Cuadrados.dir/src/Cuadrados.cpp.obj: CXX_COMPILER__Cuadrados_Debug D$:/Mentoria_Programacion_II/Clase1$ Problemas/src/Cuadrados.cpp || cmake_object_order_depends_target_Cuadrados
   DEP_FILE = CMakeFiles\Cuadrados.dir\src\Cuadrados.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\Cuadrados.dir
@@ -148,7 +148,7 @@ build Cuadrados.exe: CXX_EXECUTABLE_LINKER__Cuadrados_Debug CMakeFiles/Cuadrados
 
 build cmake_object_order_depends_target_Diamond: phony || CMakeFiles/Diamond.dir
 
-build CMakeFiles/Diamond.dir/src/Diamond.cpp.obj: CXX_COMPILER__Diamond_Debug C$:/Users/USER/Desktop/Mentorias/Clase1$ Problemas/src/Diamond.cpp || cmake_object_order_depends_target_Diamond
+build CMakeFiles/Diamond.dir/src/Diamond.cpp.obj: CXX_COMPILER__Diamond_Debug D$:/Mentoria_Programacion_II/Clase1$ Problemas/src/Diamond.cpp || cmake_object_order_depends_target_Diamond
   DEP_FILE = CMakeFiles\Diamond.dir\src\Diamond.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\Diamond.dir
@@ -181,7 +181,7 @@ build Diamond.exe: CXX_EXECUTABLE_LINKER__Diamond_Debug CMakeFiles/Diamond.dir/s
 
 build cmake_object_order_depends_target_Escalera: phony || CMakeFiles/Escalera.dir
 
-build CMakeFiles/Escalera.dir/src/Escalera.cpp.obj: CXX_COMPILER__Escalera_Debug C$:/Users/USER/Desktop/Mentorias/Clase1$ Problemas/src/Escalera.cpp || cmake_object_order_depends_target_Escalera
+build CMakeFiles/Escalera.dir/src/Escalera.cpp.obj: CXX_COMPILER__Escalera_Debug D$:/Mentoria_Programacion_II/Clase1$ Problemas/src/Escalera.cpp || cmake_object_order_depends_target_Escalera
   DEP_FILE = CMakeFiles\Escalera.dir\src\Escalera.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\Escalera.dir
@@ -206,6 +206,39 @@ build Escalera.exe: CXX_EXECUTABLE_LINKER__Escalera_Debug CMakeFiles/Escalera.di
   TARGET_PDB = Escalera.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Repaso
+
+
+#############################################
+# Order-only phony target for Repaso
+
+build cmake_object_order_depends_target_Repaso: phony || CMakeFiles/Repaso.dir
+
+build CMakeFiles/Repaso.dir/src/Repaso.cpp.obj: CXX_COMPILER__Repaso_Debug D$:/Mentoria_Programacion_II/Clase1$ Problemas/src/Repaso.cpp || cmake_object_order_depends_target_Repaso
+  DEP_FILE = CMakeFiles\Repaso.dir\src\Repaso.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Repaso.dir
+  OBJECT_FILE_DIR = CMakeFiles\Repaso.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Repaso
+
+
+#############################################
+# Link the executable Repaso.exe
+
+build Repaso.exe: CXX_EXECUTABLE_LINKER__Repaso_Debug CMakeFiles/Repaso.dir/src/Repaso.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Repaso.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Repaso.exe
+  TARGET_IMPLIB = libRepaso.dll.a
+  TARGET_PDB = Repaso.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target TiempoDigital
 
 
@@ -214,7 +247,7 @@ build Escalera.exe: CXX_EXECUTABLE_LINKER__Escalera_Debug CMakeFiles/Escalera.di
 
 build cmake_object_order_depends_target_TiempoDigital: phony || CMakeFiles/TiempoDigital.dir
 
-build CMakeFiles/TiempoDigital.dir/src/TiempoDigital.cpp.obj: CXX_COMPILER__TiempoDigital_Debug C$:/Users/USER/Desktop/Mentorias/Clase1$ Problemas/src/TiempoDigital.cpp || cmake_object_order_depends_target_TiempoDigital
+build CMakeFiles/TiempoDigital.dir/src/TiempoDigital.cpp.obj: CXX_COMPILER__TiempoDigital_Debug D$:/Mentoria_Programacion_II/Clase1$ Problemas/src/TiempoDigital.cpp || cmake_object_order_depends_target_TiempoDigital
   DEP_FILE = CMakeFiles\TiempoDigital.dir\src\TiempoDigital.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\TiempoDigital.dir
@@ -247,7 +280,7 @@ build TiempoDigital.exe: CXX_EXECUTABLE_LINKER__TiempoDigital_Debug CMakeFiles/T
 
 build cmake_object_order_depends_target_ejemplos: phony || CMakeFiles/ejemplos.dir
 
-build CMakeFiles/ejemplos.dir/src/ejemplos.cpp.obj: CXX_COMPILER__ejemplos_Debug C$:/Users/USER/Desktop/Mentorias/Clase1$ Problemas/src/ejemplos.cpp || cmake_object_order_depends_target_ejemplos
+build CMakeFiles/ejemplos.dir/src/ejemplos.cpp.obj: CXX_COMPILER__ejemplos_Debug D$:/Mentoria_Programacion_II/Clase1$ Problemas/src/ejemplos.cpp || cmake_object_order_depends_target_ejemplos
   DEP_FILE = CMakeFiles\ejemplos.dir\src\ejemplos.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\ejemplos.dir
@@ -280,7 +313,7 @@ build ejemplos.exe: CXX_EXECUTABLE_LINKER__ejemplos_Debug CMakeFiles/ejemplos.di
 
 build cmake_object_order_depends_target_maxdigrepetido: phony || CMakeFiles/maxdigrepetido.dir
 
-build CMakeFiles/maxdigrepetido.dir/src/maxdigrepetido.cpp.obj: CXX_COMPILER__maxdigrepetido_Debug C$:/Users/USER/Desktop/Mentorias/Clase1$ Problemas/src/maxdigrepetido.cpp || cmake_object_order_depends_target_maxdigrepetido
+build CMakeFiles/maxdigrepetido.dir/src/maxdigrepetido.cpp.obj: CXX_COMPILER__maxdigrepetido_Debug D$:/Mentoria_Programacion_II/Clase1$ Problemas/src/maxdigrepetido.cpp || cmake_object_order_depends_target_maxdigrepetido
   DEP_FILE = CMakeFiles\maxdigrepetido.dir\src\maxdigrepetido.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\maxdigrepetido.dir
@@ -309,7 +342,7 @@ build maxdigrepetido.exe: CXX_EXECUTABLE_LINKER__maxdigrepetido_Debug CMakeFiles
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\USER\Desktop\Mentorias\Clase1 Problemas\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\Mentoria_Programacion_II\Clase1 Problemas\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -320,7 +353,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\USER\Desktop\Mentorias\Clase1 Problemas\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\USER\Desktop\Mentorias\Clase1 Problemas" -B"C:\Users\USER\Desktop\Mentorias\Clase1 Problemas\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "D:\Mentoria_Programacion_II\Clase1 Problemas\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Mentoria_Programacion_II\Clase1 Problemas" -B"D:\Mentoria_Programacion_II\Clase1 Problemas\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -340,6 +373,8 @@ build Diamond: phony Diamond.exe
 
 build Escalera: phony Escalera.exe
 
+build Repaso: phony Repaso.exe
+
 build TiempoDigital: phony TiempoDigital.exe
 
 build ejemplos: phony ejemplos.exe
@@ -352,9 +387,9 @@ build maxdigrepetido: phony maxdigrepetido.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/USER/Desktop/Mentorias/Clase1 Problemas/cmake-build-debug
+# Folder: D:/Mentoria_Programacion_II/Clase1 Problemas/cmake-build-debug
 
-build all: phony BMI.exe Clave.exe Cuadrados.exe Diamond.exe Escalera.exe TiempoDigital.exe ejemplos.exe maxdigrepetido.exe
+build all: phony BMI.exe Clave.exe Cuadrados.exe Diamond.exe Escalera.exe Repaso.exe TiempoDigital.exe ejemplos.exe maxdigrepetido.exe
 
 # =============================================================================
 # Built-in targets

@@ -304,6 +304,39 @@ build ejemplo.exe: CXX_EXECUTABLE_LINKER__ejemplo_Debug CMakeFiles/ejemplo.dir/s
   TARGET_IMPLIB = libejemplo.dll.a
   TARGET_PDB = ejemplo.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target extra
+
+
+#############################################
+# Order-only phony target for extra
+
+build cmake_object_order_depends_target_extra: phony || CMakeFiles/extra.dir
+
+build CMakeFiles/extra.dir/src/extra.cpp.obj: CXX_COMPILER__extra_Debug D$:/Mentoria_Programacion_II/Clase5$ Problemas/src/extra.cpp || cmake_object_order_depends_target_extra
+  DEP_FILE = CMakeFiles\extra.dir\src\extra.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\extra.dir
+  OBJECT_FILE_DIR = CMakeFiles\extra.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extra
+
+
+#############################################
+# Link the executable extra.exe
+
+build extra.exe: CXX_EXECUTABLE_LINKER__extra_Debug CMakeFiles/extra.dir/src/extra.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\extra.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = extra.exe
+  TARGET_IMPLIB = libextra.dll.a
+  TARGET_PDB = extra.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -346,6 +379,8 @@ build P7: phony P7.exe
 
 build ejemplo: phony ejemplo.exe
 
+build extra: phony extra.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -354,7 +389,7 @@ build ejemplo: phony ejemplo.exe
 #############################################
 # Folder: D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug
 
-build all: phony P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe ejemplo.exe
+build all: phony P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe ejemplo.exe extra.exe
 
 # =============================================================================
 # Built-in targets

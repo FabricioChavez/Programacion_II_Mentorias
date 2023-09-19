@@ -56,33 +56,50 @@ if(encontrado)
 
 }
 
+
+void fill(int ** M , int f  , int c)
+{
+    for (int i = 0; i < f ; ++i) {
+        for (int j = 0; j < c; ++j) {
+            M[i][j]=rand()%5+1;
+        }
+    }
+
+}
+
+void printearM(int** M , int f , int c)
+{
+    for (int i = 0; i < f ; ++i) {
+        for (int j = 0; j < c; ++j) {
+            cout<<M[i][j]<<" "; // M**
+        }
+        cout<<endl;
+    }
+
+}
+
 int main()
 {
 
+//    //Reservar memoria
+//    int f ,c ;
+//    cin>>f>>c;
+//    int  **a = new int*[f]; //  Reservar memoria para un arreglo de punteros // F
+//    for (int i = 0; i < f; ++i) { // C //reservar memoria para cada arreglo de valores
+//        a[i]= new int [c];
+//    }
+//    //LLenar de numeros aleatorios
+//    fill(a, f ,c);
+//    //Imprimir la matriz
+//    printearM(a , f ,c);
+//
+//
+//    for (int i = 0; i < f; ++i) {
+//        delete a[i];
+//    }
+//    delete *a;
+//
 
-    srand(time(nullptr));
-    int f , c;
-    cout<<" Ingresar filas :";
-    cin>>f;
-    cout<<" Ingresar columnas :";
-    cin>>c;
-    string * soup = new string [f];
-    for (int i = 0; i < f; ++i) {
-        soup[i].resize(c);
-    }
-    Fill_Letters(soup, f ,c );
-    cout<<"PRINT SOPA DE LETRAS "<<endl;
-    print_M(soup,f , c);
-    string s;
-    cout<<"Ingresar lo que quiere buscar :";
-    cin>>s;
-    buscar(soup ,f , s);
 
-
-
-//lista * algo = new lista;
-//cout<<(*algo).ptr[0]<<endl;
-//vector<int > *array = new vector{1,2,3,4};
-//cout<<(*array)[1];
 
 }

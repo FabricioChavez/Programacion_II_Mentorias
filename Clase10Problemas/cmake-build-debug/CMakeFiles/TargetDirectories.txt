@@ -1,0 +1,3 @@
+D:/Mentoria_Programacion_II/Clase10Problemas/cmake-build-debug/CMakeFiles/Clase10Problemas.dir
+D:/Mentoria_Programacion_II/Clase10Problemas/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Mentoria_Programacion_II/Clase10Problemas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
