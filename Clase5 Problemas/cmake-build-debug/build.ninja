@@ -337,6 +337,72 @@ build extra.exe: CXX_EXECUTABLE_LINKER__extra_Debug CMakeFiles/extra.dir/src/ext
   TARGET_IMPLIB = libextra.dll.a
   TARGET_PDB = extra.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target extra2
+
+
+#############################################
+# Order-only phony target for extra2
+
+build cmake_object_order_depends_target_extra2: phony || CMakeFiles/extra2.dir
+
+build CMakeFiles/extra2.dir/src/extra2.cpp.obj: CXX_COMPILER__extra2_Debug D$:/Mentoria_Programacion_II/Clase5$ Problemas/src/extra2.cpp || cmake_object_order_depends_target_extra2
+  DEP_FILE = CMakeFiles\extra2.dir\src\extra2.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\extra2.dir
+  OBJECT_FILE_DIR = CMakeFiles\extra2.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extra2
+
+
+#############################################
+# Link the executable extra2.exe
+
+build extra2.exe: CXX_EXECUTABLE_LINKER__extra2_Debug CMakeFiles/extra2.dir/src/extra2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\extra2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = extra2.exe
+  TARGET_IMPLIB = libextra2.dll.a
+  TARGET_PDB = extra2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target extra3
+
+
+#############################################
+# Order-only phony target for extra3
+
+build cmake_object_order_depends_target_extra3: phony || CMakeFiles/extra3.dir
+
+build CMakeFiles/extra3.dir/src/extra3.cpp.obj: CXX_COMPILER__extra3_Debug D$:/Mentoria_Programacion_II/Clase5$ Problemas/src/extra3.cpp || cmake_object_order_depends_target_extra3
+  DEP_FILE = CMakeFiles\extra3.dir\src\extra3.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\extra3.dir
+  OBJECT_FILE_DIR = CMakeFiles\extra3.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extra3
+
+
+#############################################
+# Link the executable extra3.exe
+
+build extra3.exe: CXX_EXECUTABLE_LINKER__extra3_Debug CMakeFiles/extra3.dir/src/extra3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\extra3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = extra3.exe
+  TARGET_IMPLIB = libextra3.dll.a
+  TARGET_PDB = extra3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -381,6 +447,10 @@ build ejemplo: phony ejemplo.exe
 
 build extra: phony extra.exe
 
+build extra2: phony extra2.exe
+
+build extra3: phony extra3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -389,7 +459,7 @@ build extra: phony extra.exe
 #############################################
 # Folder: D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug
 
-build all: phony P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe ejemplo.exe extra.exe
+build all: phony P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe ejemplo.exe extra.exe extra2.exe extra3.exe
 
 # =============================================================================
 # Built-in targets
