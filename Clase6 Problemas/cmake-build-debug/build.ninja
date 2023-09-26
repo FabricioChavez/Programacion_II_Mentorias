@@ -371,6 +371,39 @@ build POO2.exe: CXX_EXECUTABLE_LINKER__POO2_Debug CMakeFiles/POO2.dir/src/POO2.c
   TARGET_PDB = POO2.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target POO3
+
+
+#############################################
+# Order-only phony target for POO3
+
+build cmake_object_order_depends_target_POO3: phony || CMakeFiles/POO3.dir
+
+build CMakeFiles/POO3.dir/src/POO3.cpp.obj: CXX_COMPILER__POO3_Debug D$:/Mentoria_Programacion_II/Clase6$ Problemas/src/POO3.cpp || cmake_object_order_depends_target_POO3
+  DEP_FILE = CMakeFiles\POO3.dir\src\POO3.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\POO3.dir
+  OBJECT_FILE_DIR = CMakeFiles\POO3.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target POO3
+
+
+#############################################
+# Link the executable POO3.exe
+
+build POO3.exe: CXX_EXECUTABLE_LINKER__POO3_Debug CMakeFiles/POO3.dir/src/POO3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\POO3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = POO3.exe
+  TARGET_IMPLIB = libPOO3.dll.a
+  TARGET_PDB = POO3.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ejemplo
 
 
@@ -436,6 +469,39 @@ build ejemplos2.exe: CXX_EXECUTABLE_LINKER__ejemplos2_Debug CMakeFiles/ejemplos2
   TARGET_IMPLIB = libejemplos2.dll.a
   TARGET_PDB = ejemplos2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target extra1
+
+
+#############################################
+# Order-only phony target for extra1
+
+build cmake_object_order_depends_target_extra1: phony || CMakeFiles/extra1.dir
+
+build CMakeFiles/extra1.dir/src/extra1.cpp.obj: CXX_COMPILER__extra1_Debug D$:/Mentoria_Programacion_II/Clase6$ Problemas/src/extra1.cpp || cmake_object_order_depends_target_extra1
+  DEP_FILE = CMakeFiles\extra1.dir\src\extra1.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\extra1.dir
+  OBJECT_FILE_DIR = CMakeFiles\extra1.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extra1
+
+
+#############################################
+# Link the executable extra1.exe
+
+build extra1.exe: CXX_EXECUTABLE_LINKER__extra1_Debug CMakeFiles/extra1.dir/src/extra1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\extra1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = extra1.exe
+  TARGET_IMPLIB = libextra1.dll.a
+  TARGET_PDB = extra1.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -482,9 +548,13 @@ build POO1: phony POO1.exe
 
 build POO2: phony POO2.exe
 
+build POO3: phony POO3.exe
+
 build ejemplo: phony ejemplo.exe
 
 build ejemplos2: phony ejemplos2.exe
+
+build extra1: phony extra1.exe
 
 # =============================================================================
 # Folder targets.
@@ -494,7 +564,7 @@ build ejemplos2: phony ejemplos2.exe
 #############################################
 # Folder: D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug
 
-build all: phony P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe POO.exe POO1.exe POO2.exe ejemplo.exe ejemplos2.exe
+build all: phony P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe POO.exe POO1.exe POO2.exe POO3.exe ejemplo.exe ejemplos2.exe extra1.exe
 
 # =============================================================================
 # Built-in targets

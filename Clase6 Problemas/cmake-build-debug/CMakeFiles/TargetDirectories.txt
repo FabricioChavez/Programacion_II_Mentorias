@@ -8,7 +8,9 @@ D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug/CMakeFiles/P7.dir
 D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug/CMakeFiles/POO.dir
 D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug/CMakeFiles/POO1.dir
 D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug/CMakeFiles/POO2.dir
+D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug/CMakeFiles/POO3.dir
 D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug/CMakeFiles/ejemplo.dir
 D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug/CMakeFiles/ejemplos2.dir
+D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug/CMakeFiles/extra1.dir
 D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

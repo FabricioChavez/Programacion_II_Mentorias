@@ -25,7 +25,10 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11,
+						12,
+						13
 					]
 				}
 			],
@@ -50,7 +53,10 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11,
+						12,
+						13
 					]
 				}
 			],
@@ -107,6 +113,34 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "POO::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-POO-Debug-c365051c2380f1066d4e.json",
+					"name" : "POO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "POO1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-POO1-Debug-da063252b7cc58ec7003.json",
+					"name" : "POO1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "POO2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-POO2-Debug-ccb69f87afe6870c451e.json",
+					"name" : "POO2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "POO3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-POO3-Debug-a1cac579784960e5d998.json",
+					"name" : "POO3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "ejemplo::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ejemplo-Debug-fadb1f74c36b458ae543.json",
 					"name" : "ejemplo",
@@ -114,23 +148,16 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "extra::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-extra-Debug-78e97dafe8b5ce64fe92.json",
-					"name" : "extra",
+					"id" : "ejemplos2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejemplos2-Debug-e7ced67cd3e6970347d8.json",
+					"name" : "ejemplos2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "extra2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-extra2-Debug-a608f95fb9ced9d117f6.json",
-					"name" : "extra2",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "extra3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-extra3-Debug-2ec95bb51791fcc03c88.json",
-					"name" : "extra3",
+					"id" : "extra1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extra1-Debug-6b41d60cf1d005ac5515.json",
+					"name" : "extra1",
 					"projectIndex" : 0
 				}
 			]
@@ -139,8 +166,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug",
-		"source" : "D:/Mentoria_Programacion_II/Clase5 Problemas"
+		"build" : "D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug",
+		"source" : "D:/Mentoria_Programacion_II/Clase6 Problemas"
 	},
 	"version" : 
 	{

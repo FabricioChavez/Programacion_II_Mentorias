@@ -403,6 +403,39 @@ build extra3.exe: CXX_EXECUTABLE_LINKER__extra3_Debug CMakeFiles/extra3.dir/src/
   TARGET_IMPLIB = libextra3.dll.a
   TARGET_PDB = extra3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target extra4
+
+
+#############################################
+# Order-only phony target for extra4
+
+build cmake_object_order_depends_target_extra4: phony || CMakeFiles/extra4.dir
+
+build CMakeFiles/extra4.dir/src/extra4.cpp.obj: CXX_COMPILER__extra4_Debug D$:/Mentoria_Programacion_II/Clase5$ Problemas/src/extra4.cpp || cmake_object_order_depends_target_extra4
+  DEP_FILE = CMakeFiles\extra4.dir\src\extra4.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\extra4.dir
+  OBJECT_FILE_DIR = CMakeFiles\extra4.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extra4
+
+
+#############################################
+# Link the executable extra4.exe
+
+build extra4.exe: CXX_EXECUTABLE_LINKER__extra4_Debug CMakeFiles/extra4.dir/src/extra4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\extra4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = extra4.exe
+  TARGET_IMPLIB = libextra4.dll.a
+  TARGET_PDB = extra4.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -451,6 +484,8 @@ build extra2: phony extra2.exe
 
 build extra3: phony extra3.exe
 
+build extra4: phony extra4.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -459,7 +494,7 @@ build extra3: phony extra3.exe
 #############################################
 # Folder: D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug
 
-build all: phony P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe ejemplo.exe extra.exe extra2.exe extra3.exe
+build all: phony P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe ejemplo.exe extra.exe extra2.exe extra3.exe extra4.exe
 
 # =============================================================================
 # Built-in targets

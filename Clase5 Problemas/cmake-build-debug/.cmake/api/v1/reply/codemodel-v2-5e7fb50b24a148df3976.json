@@ -109,27 +109,6 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "POO::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-POO-Debug-c365051c2380f1066d4e.json",
-					"name" : "POO",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "POO1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-POO1-Debug-da063252b7cc58ec7003.json",
-					"name" : "POO1",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "POO2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-POO2-Debug-ccb69f87afe6870c451e.json",
-					"name" : "POO2",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "ejemplo::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ejemplo-Debug-fadb1f74c36b458ae543.json",
 					"name" : "ejemplo",
@@ -137,9 +116,30 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "ejemplos2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ejemplos2-Debug-e7ced67cd3e6970347d8.json",
-					"name" : "ejemplos2",
+					"id" : "extra::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extra-Debug-78e97dafe8b5ce64fe92.json",
+					"name" : "extra",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extra2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extra2-Debug-a608f95fb9ced9d117f6.json",
+					"name" : "extra2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extra3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extra3-Debug-2ec95bb51791fcc03c88.json",
+					"name" : "extra3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extra4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extra4-Debug-e744aeef4e75f45c1fc2.json",
+					"name" : "extra4",
 					"projectIndex" : 0
 				}
 			]
@@ -148,8 +148,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug",
-		"source" : "D:/Mentoria_Programacion_II/Clase6 Problemas"
+		"build" : "D:/Mentoria_Programacion_II/Clase5 Problemas/cmake-build-debug",
+		"source" : "D:/Mentoria_Programacion_II/Clase5 Problemas"
 	},
 	"version" : 
 	{
