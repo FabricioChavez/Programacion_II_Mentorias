@@ -28,7 +28,8 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14
 					]
 				}
 			],
@@ -56,12 +57,20 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Calculadora_10_2_2023::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Calculadora_10_2_2023-Debug-73dd75ae2f37d23b7cd7.json",
+					"name" : "Calculadora_10_2_2023",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "P1::@6890427a1f51a3e7e1df",

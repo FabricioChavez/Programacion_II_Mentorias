@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/Mentoria_Programacion_II/Clase6$ Problemas/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target Calculadora_10_2_2023
+
+
+#############################################
+# Order-only phony target for Calculadora_10_2_2023
+
+build cmake_object_order_depends_target_Calculadora_10_2_2023: phony || CMakeFiles/Calculadora_10_2_2023.dir
+
+build CMakeFiles/Calculadora_10_2_2023.dir/src/Calculadora_10_2_2023.cpp.obj: CXX_COMPILER__Calculadora_10_2_2023_Debug D$:/Mentoria_Programacion_II/Clase6$ Problemas/src/Calculadora_10_2_2023.cpp || cmake_object_order_depends_target_Calculadora_10_2_2023
+  DEP_FILE = CMakeFiles\Calculadora_10_2_2023.dir\src\Calculadora_10_2_2023.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Calculadora_10_2_2023.dir
+  OBJECT_FILE_DIR = CMakeFiles\Calculadora_10_2_2023.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Calculadora_10_2_2023
+
+
+#############################################
+# Link the executable Calculadora_10_2_2023.exe
+
+build Calculadora_10_2_2023.exe: CXX_EXECUTABLE_LINKER__Calculadora_10_2_2023_Debug CMakeFiles/Calculadora_10_2_2023.dir/src/Calculadora_10_2_2023.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Calculadora_10_2_2023.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Calculadora_10_2_2023.exe
+  TARGET_IMPLIB = libCalculadora_10_2_2023.dll.a
+  TARGET_PDB = Calculadora_10_2_2023.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target P1
 
 
@@ -528,6 +561,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Calculadora_10_2_2023: phony Calculadora_10_2_2023.exe
+
 build P1: phony P1.exe
 
 build P2: phony P2.exe
@@ -564,7 +599,7 @@ build extra1: phony extra1.exe
 #############################################
 # Folder: D:/Mentoria_Programacion_II/Clase6 Problemas/cmake-build-debug
 
-build all: phony P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe POO.exe POO1.exe POO2.exe POO3.exe ejemplo.exe ejemplos2.exe extra1.exe
+build all: phony Calculadora_10_2_2023.exe P1.exe P2.exe P3.exe P4.exe P5.exe P6.exe P7.exe POO.exe POO1.exe POO2.exe POO3.exe ejemplo.exe ejemplos2.exe extra1.exe
 
 # =============================================================================
 # Built-in targets
