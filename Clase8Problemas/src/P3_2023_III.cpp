@@ -71,11 +71,13 @@ int s;
 
                   i++;
            }
+           cout<<"SE ELIMINO A"<<endl;
+           players[i].print();
            players.erase(players.begin()+i);
 
        }else {
            cout<<"LA MUSICA NO SE DETIENE ..."<<endl;
-           for(auto  p : players)
+           for(auto  & p : players)  // DETALLE CORREGIDO --> Para modificar a los elementos en vector era necesario usar & en la parte de la iteracion para poder modificarlos como referencia
            {
                int nro_silla = random_number_generator(players.size());
                if (!repetidos[nro_silla])
@@ -100,6 +102,9 @@ int s;
                }
 
            }
+           cout<<"LUEGO DE REASIGNADO "<<endl;
+           for (auto p:players)
+               p.print();
 
        }
 
