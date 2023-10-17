@@ -20,7 +20,9 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -40,7 +42,9 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -62,9 +66,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "P2_2023_I::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P2_2023_I-Debug-b9cc95795687a7e0c412.json",
+					"name" : "P2_2023_I",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "P3::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-P3-Debug-54123daad9390e6c4dc4.json",
 					"name" : "P3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P3_2023_III::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P3_2023_III-Debug-667bc5356690c660c445.json",
+					"name" : "P3_2023_III",
 					"projectIndex" : 0
 				},
 				{

@@ -1,6 +1,8 @@
 D:/Mentoria_Programacion_II/Clase8Problemas/cmake-build-debug/CMakeFiles/P1.dir
 D:/Mentoria_Programacion_II/Clase8Problemas/cmake-build-debug/CMakeFiles/P2.dir
+D:/Mentoria_Programacion_II/Clase8Problemas/cmake-build-debug/CMakeFiles/P2_2023_I.dir
 D:/Mentoria_Programacion_II/Clase8Problemas/cmake-build-debug/CMakeFiles/P3.dir
+D:/Mentoria_Programacion_II/Clase8Problemas/cmake-build-debug/CMakeFiles/P3_2023_III.dir
 D:/Mentoria_Programacion_II/Clase8Problemas/cmake-build-debug/CMakeFiles/P4.dir
 D:/Mentoria_Programacion_II/Clase8Problemas/cmake-build-debug/CMakeFiles/P5.dir
 D:/Mentoria_Programacion_II/Clase8Problemas/cmake-build-debug/CMakeFiles/P6.dir
