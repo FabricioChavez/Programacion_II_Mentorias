@@ -74,6 +74,105 @@ build Grafos.exe: CXX_EXECUTABLE_LINKER__Grafos_Debug CMakeFiles/Grafos.dir/src/
   TARGET_PDB = Grafos.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target P1_12
+
+
+#############################################
+# Order-only phony target for P1_12
+
+build cmake_object_order_depends_target_P1_12: phony || CMakeFiles/P1_12.dir
+
+build CMakeFiles/P1_12.dir/src/P1_12.cpp.obj: CXX_COMPILER__P1_12_Debug D$:/Mentoria_Programacion_II/Clase12Problemas/src/P1_12.cpp || cmake_object_order_depends_target_P1_12
+  DEP_FILE = CMakeFiles\P1_12.dir\src\P1_12.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\P1_12.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1_12.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P1_12
+
+
+#############################################
+# Link the executable P1_12.exe
+
+build P1_12.exe: CXX_EXECUTABLE_LINKER__P1_12_Debug CMakeFiles/P1_12.dir/src/P1_12.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\P1_12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = P1_12.exe
+  TARGET_IMPLIB = libP1_12.dll.a
+  TARGET_PDB = P1_12.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P2_12
+
+
+#############################################
+# Order-only phony target for P2_12
+
+build cmake_object_order_depends_target_P2_12: phony || CMakeFiles/P2_12.dir
+
+build CMakeFiles/P2_12.dir/src/P2_12.cpp.obj: CXX_COMPILER__P2_12_Debug D$:/Mentoria_Programacion_II/Clase12Problemas/src/P2_12.cpp || cmake_object_order_depends_target_P2_12
+  DEP_FILE = CMakeFiles\P2_12.dir\src\P2_12.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\P2_12.dir
+  OBJECT_FILE_DIR = CMakeFiles\P2_12.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P2_12
+
+
+#############################################
+# Link the executable P2_12.exe
+
+build P2_12.exe: CXX_EXECUTABLE_LINKER__P2_12_Debug CMakeFiles/P2_12.dir/src/P2_12.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\P2_12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = P2_12.exe
+  TARGET_IMPLIB = libP2_12.dll.a
+  TARGET_PDB = P2_12.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P3_12
+
+
+#############################################
+# Order-only phony target for P3_12
+
+build cmake_object_order_depends_target_P3_12: phony || CMakeFiles/P3_12.dir
+
+build CMakeFiles/P3_12.dir/src/P3_12.cpp.obj: CXX_COMPILER__P3_12_Debug D$:/Mentoria_Programacion_II/Clase12Problemas/src/P3_12.cpp || cmake_object_order_depends_target_P3_12
+  DEP_FILE = CMakeFiles\P3_12.dir\src\P3_12.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\P3_12.dir
+  OBJECT_FILE_DIR = CMakeFiles\P3_12.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P3_12
+
+
+#############################################
+# Link the executable P3_12.exe
+
+build P3_12.exe: CXX_EXECUTABLE_LINKER__P3_12_Debug CMakeFiles/P3_12.dir/src/P3_12.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\P3_12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = P3_12.exe
+  TARGET_IMPLIB = libP3_12.dll.a
+  TARGET_PDB = P3_12.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Vector
 
 
@@ -134,6 +233,12 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Grafos: phony Grafos.exe
 
+build P1_12: phony P1_12.exe
+
+build P2_12: phony P2_12.exe
+
+build P3_12: phony P3_12.exe
+
 build Vector: phony Vector.exe
 
 # =============================================================================
@@ -144,7 +249,7 @@ build Vector: phony Vector.exe
 #############################################
 # Folder: D:/Mentoria_Programacion_II/Clase12Problemas/cmake-build-debug
 
-build all: phony Grafos.exe Vector.exe
+build all: phony Grafos.exe P1_12.exe P2_12.exe P3_12.exe Vector.exe
 
 # =============================================================================
 # Built-in targets
