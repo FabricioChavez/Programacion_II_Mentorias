@@ -173,6 +173,39 @@ build P3_12.exe: CXX_EXECUTABLE_LINKER__P3_12_Debug CMakeFiles/P3_12.dir/src/P3_
   TARGET_PDB = P3_12.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Sobgrecarga
+
+
+#############################################
+# Order-only phony target for Sobgrecarga
+
+build cmake_object_order_depends_target_Sobgrecarga: phony || CMakeFiles/Sobgrecarga.dir
+
+build CMakeFiles/Sobgrecarga.dir/src/Sobgrecarga.cpp.obj: CXX_COMPILER__Sobgrecarga_Debug D$:/Mentoria_Programacion_II/Clase12Problemas/src/Sobgrecarga.cpp || cmake_object_order_depends_target_Sobgrecarga
+  DEP_FILE = CMakeFiles\Sobgrecarga.dir\src\Sobgrecarga.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Sobgrecarga.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sobgrecarga.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Sobgrecarga
+
+
+#############################################
+# Link the executable Sobgrecarga.exe
+
+build Sobgrecarga.exe: CXX_EXECUTABLE_LINKER__Sobgrecarga_Debug CMakeFiles/Sobgrecarga.dir/src/Sobgrecarga.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Sobgrecarga.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Sobgrecarga.exe
+  TARGET_IMPLIB = libSobgrecarga.dll.a
+  TARGET_PDB = Sobgrecarga.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Vector
 
 
@@ -239,6 +272,8 @@ build P2_12: phony P2_12.exe
 
 build P3_12: phony P3_12.exe
 
+build Sobgrecarga: phony Sobgrecarga.exe
+
 build Vector: phony Vector.exe
 
 # =============================================================================
@@ -249,7 +284,7 @@ build Vector: phony Vector.exe
 #############################################
 # Folder: D:/Mentoria_Programacion_II/Clase12Problemas/cmake-build-debug
 
-build all: phony Grafos.exe P1_12.exe P2_12.exe P3_12.exe Vector.exe
+build all: phony Grafos.exe P1_12.exe P2_12.exe P3_12.exe Sobgrecarga.exe Vector.exe
 
 # =============================================================================
 # Built-in targets
