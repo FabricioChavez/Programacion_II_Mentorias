@@ -82,7 +82,7 @@ int main(){
 //        cerr<<"No se encontro el archivo ..."<<endl;
 //        exit(1);
 //    }
-//
+//cin>> --
 //    vector<pair<string , float>> cosa;
 //    while (lectura>>prov>>farenheit)
 //    {

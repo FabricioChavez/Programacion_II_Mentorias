@@ -1,19 +1,5 @@
 # ninja log v5
-0	1530	7098698989857798	CMakeFiles/vector_file.dir/src/vector_file.cpp.obj	3faf8157f5c4c83e
-1537	1644	7098698990978039	vector_file.exe	d952fae0a4e4c821
-3	1485	7098700028104515	CMakeFiles/vector_file.dir/src/vector_file.cpp.obj	3faf8157f5c4c83e
-1485	1557	7098700028805929	vector_file.exe	d952fae0a4e4c821
-2	1514	7098701102238826	CMakeFiles/vector_file.dir/src/vector_file.cpp.obj	3faf8157f5c4c83e
-1514	1589	7098701102958975	vector_file.exe	d952fae0a4e4c821
-2	1548	7098701377463783	CMakeFiles/vector_file.dir/src/vector_file.cpp.obj	3faf8157f5c4c83e
-1548	1626	7098701378223949	vector_file.exe	d952fae0a4e4c821
-2	1520	7098701617771716	CMakeFiles/vector_file.dir/src/vector_file.cpp.obj	3faf8157f5c4c83e
-1520	1609	7098701618651912	vector_file.exe	d952fae0a4e4c821
-2	1633	7098704363421080	CMakeFiles/vector_file.dir/src/vector_file.cpp.obj	3faf8157f5c4c83e
-1634	1711	7098704364181246	vector_file.exe	d952fae0a4e4c821
-2	1684	7098706018658253	CMakeFiles/vector_file.dir/src/vector_file.cpp.obj	3faf8157f5c4c83e
-1684	1764	7098706019438438	vector_file.exe	d952fae0a4e4c821
-2	1608	7098707760841325	CMakeFiles/vector_file.dir/src/vector_file.cpp.obj	3faf8157f5c4c83e
-1609	1700	7098707761741526	vector_file.exe	d952fae0a4e4c821
 3	1597	7098708069275208	CMakeFiles/vector_file.dir/src/vector_file.cpp.obj	3faf8157f5c4c83e
+1662	1744	7216236104343836	Herencia.exe	22960a04c4e7511e
 1597	1685	7098708070115403	vector_file.exe	d952fae0a4e4c821
+3	1661	7216236103533844	CMakeFiles/Herencia.dir/src/Herencia.cpp.obj	854310658fbb153d

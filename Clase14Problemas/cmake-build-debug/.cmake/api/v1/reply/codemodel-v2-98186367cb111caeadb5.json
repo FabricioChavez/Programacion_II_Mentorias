@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,12 +32,28 @@
 					"name" : "problemas",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Herencia::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Herencia-Debug-f442ec3dfb47da826f51.json",
+					"name" : "Herencia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PC_brossard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PC_brossard-Debug-3d585f5c5dfa6a29f87f.json",
+					"name" : "PC_brossard",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "vector_file::@6890427a1f51a3e7e1df",

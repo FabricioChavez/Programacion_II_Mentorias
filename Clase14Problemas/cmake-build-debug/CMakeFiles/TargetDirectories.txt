@@ -1,3 +1,5 @@
+D:/Mentoria_Programacion_II/Clase14Problemas/cmake-build-debug/CMakeFiles/Herencia.dir
+D:/Mentoria_Programacion_II/Clase14Problemas/cmake-build-debug/CMakeFiles/PC_brossard.dir
 D:/Mentoria_Programacion_II/Clase14Problemas/cmake-build-debug/CMakeFiles/vector_file.dir
 D:/Mentoria_Programacion_II/Clase14Problemas/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Mentoria_Programacion_II/Clase14Problemas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

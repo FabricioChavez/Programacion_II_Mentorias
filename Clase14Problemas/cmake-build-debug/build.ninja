@@ -41,6 +41,72 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/Mentoria_Programacion_II/Clase14Problemas/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target Herencia
+
+
+#############################################
+# Order-only phony target for Herencia
+
+build cmake_object_order_depends_target_Herencia: phony || CMakeFiles/Herencia.dir
+
+build CMakeFiles/Herencia.dir/src/Herencia.cpp.obj: CXX_COMPILER__Herencia_Debug D$:/Mentoria_Programacion_II/Clase14Problemas/src/Herencia.cpp || cmake_object_order_depends_target_Herencia
+  DEP_FILE = CMakeFiles\Herencia.dir\src\Herencia.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Herencia.dir
+  OBJECT_FILE_DIR = CMakeFiles\Herencia.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Herencia
+
+
+#############################################
+# Link the executable Herencia.exe
+
+build Herencia.exe: CXX_EXECUTABLE_LINKER__Herencia_Debug CMakeFiles/Herencia.dir/src/Herencia.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Herencia.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Herencia.exe
+  TARGET_IMPLIB = libHerencia.dll.a
+  TARGET_PDB = Herencia.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PC_brossard
+
+
+#############################################
+# Order-only phony target for PC_brossard
+
+build cmake_object_order_depends_target_PC_brossard: phony || CMakeFiles/PC_brossard.dir
+
+build CMakeFiles/PC_brossard.dir/src/PC_brossard.cpp.obj: CXX_COMPILER__PC_brossard_Debug D$:/Mentoria_Programacion_II/Clase14Problemas/src/PC_brossard.cpp || cmake_object_order_depends_target_PC_brossard
+  DEP_FILE = CMakeFiles\PC_brossard.dir\src\PC_brossard.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\PC_brossard.dir
+  OBJECT_FILE_DIR = CMakeFiles\PC_brossard.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PC_brossard
+
+
+#############################################
+# Link the executable PC_brossard.exe
+
+build PC_brossard.exe: CXX_EXECUTABLE_LINKER__PC_brossard_Debug CMakeFiles/PC_brossard.dir/src/PC_brossard.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PC_brossard.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PC_brossard.exe
+  TARGET_IMPLIB = libPC_brossard.dll.a
+  TARGET_PDB = PC_brossard.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target vector_file
 
 
@@ -99,6 +165,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Herencia: phony Herencia.exe
+
+build PC_brossard: phony PC_brossard.exe
+
 build vector_file: phony vector_file.exe
 
 # =============================================================================
@@ -109,7 +179,7 @@ build vector_file: phony vector_file.exe
 #############################################
 # Folder: D:/Mentoria_Programacion_II/Clase14Problemas/cmake-build-debug
 
-build all: phony vector_file.exe
+build all: phony Herencia.exe PC_brossard.exe vector_file.exe
 
 # =============================================================================
 # Built-in targets
